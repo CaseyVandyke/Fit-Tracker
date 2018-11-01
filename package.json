@@ -1,0 +1,44 @@
+{
+  "name": "fit-track",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "chai-http": "^4.0.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "install": "^0.12.1",
+    "jsonwebtoken": "^8.3.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.13",
+    "morgan": "^1.9.0",
+    "npm": "^6.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaseyVandyke/Fit-Track.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaseyVandyke/Fit-Track/issues"
+  },
+  "homepage": "https://github.com/CaseyVandyke/Fit-Track#readme"
+}

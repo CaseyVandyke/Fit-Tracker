@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" href="./css/routine.css">
+    <title>Routine-Profile</title>
+</head>
+
+<body>
+    <main>
+        <nav class="nav-container">
+            <li class="float-name"></li>
+            <li><a href="profile.html">Home</a></li>
+            <li><a href="saved-routine.html">Routines</a></li>
+            <li><a href="saved-diet.html">Diets</a></li>
+            <li><a href="#" class="logout-btn">Logout</a></li>
+        </nav>
+        <div class="profile-tab">
+            <ul class="profile-wrap">
+                <li><a href='#' class="routine-tab">Create a routine</a></li>
+            </ul>
+        </div>
+        <form class="routine-catch" autocomplete="off">
+            <fieldset>
+                <legend>routine record</legend>
+                <p>
+                    <input type="text" name="routine" class="routine-data target-muscle" placeholder="Enter muscle group">
+                    <label for="routine"></label>
+                </p>
+                <p>
+                    <input type="text" name="workout" class="routine-data workout" placeholder="Enter workout">
+                    <label for="workout"></label>
+                </p>
+                <p>
+                    <input type="text" name="sets" class="routine-data sets" placeholder="Enter sets desired">
+                    <label for="sets"></label>
+                </p>
+                <p>
+                    <input type="text" name="reps" class="routine-data reps" placeholder="Enter reps desired">
+                    <label for="repetitions"></label>
+                </p>
+                <p>
+                    <input type="text" name="author" class="routine-data author" placeholder="Enter your name">
+                    <label for="author"></label>
+                </p>
+                <button class="routine-submit">Submit</button>
+                <div class="result-message"></div>
+            </fieldset>
+        </form>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./javascript/profile.js"></script>
+</body>
+
+</html>

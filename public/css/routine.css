@@ -1,0 +1,175 @@
+.routine-tab {
+    color: #08FF83;
+    border-bottom: 2px solid #08FF83;
+    padding: 5px;
+    width: 250px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.routine-view {
+    color: #fff;
+    border-bottom: 2px solid #FF0000;
+    padding: 5px;
+    width: 150px;
+    text-align: left;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.routine-catch {
+    margin: 0 auto;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
+
+.routine-data,
+.routine-submit {
+    margin: 5px auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #08FF83;
+    color: #08FF83;
+    background-color: #212121;
+    font-size: 17px;
+    -webkit-appearance: none;
+}
+
+.target-muscle {
+    margin-top: 30px;
+}
+
+.routine-submit {
+    cursor: pointer;
+    border: 2px solid #08FF83;
+    color: #08FF83;
+}
+
+.routine-click {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #2A2929;
+    border: 2px solid #FFDB07;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.routine-click>li {
+    list-style: none;
+    text-align: center;
+
+}
+
+.routine-click>li>a {
+    text-decoration: none;
+    color: #08FF83;
+    display: inline-block;
+}
+
+.greeting {
+    color: #FFDB07;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.routine-results:empty:before {
+    content: "So empty!";
+    font-size: 25px;
+    color: #fff;
+}
+
+.routine-results {
+    margin: 30px;
+    text-align: center;
+}
+
+.muscleType {
+    margin-top: 30px;
+}
+
+.routine-category {
+    color: #fff;
+    font-size: 25px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.routine-creation {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .routine-view {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .routine-click {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #2A2929;
+    border: 2px solid #FFDB07;
+    width: 200px;
+    border-radius: 3px;
+    }
+
+    .routine-category {
+        font-size: 20px;
+    }
+
+    .routine-creation {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .routine-tab {
+        font-size: 30px;
+    }
+
+    .routine-data,
+    .routine-submit {
+        margin: 5px auto;
+        width: 250px;
+        padding: 10px;
+        border-radius: 3px;
+        border: 2px solid #08FF83;
+        color: #08FF83;
+        background-color: #212121;
+        font-size: 15px;
+        -webkit-appearance: none;
+    }
+
+    .target-muscle {
+        margin-top: 30px;
+    }
+
+    .routine-submit {
+        cursor: pointer;
+        border: 2px solid #08FF83;
+        color: #08FF83;
+    }
+
+}
