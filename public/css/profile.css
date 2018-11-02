@@ -291,7 +291,7 @@ legend {
     }
 
     .icon-text {
-        font-size: 17px;
+        font-size: 18px;
         line-height: 1.2em;
     }
 
@@ -312,7 +312,7 @@ legend {
 
     .nav-container li {
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .nav-container .float-name {
@@ -340,7 +340,8 @@ legend {
     }
 
     .icon-style {
-        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 40px;
         width: 300px;
     }
 
