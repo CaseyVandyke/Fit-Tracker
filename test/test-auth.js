@@ -1,4 +1,4 @@
-const assert = require('assert');
+/*const assert = require('assert');
 
 describe ('demo test', function() {
 
@@ -7,7 +7,9 @@ describe ('demo test', function() {
     })
 })
 
-/*"use strict";
+*/
+
+"use strict";
 
 const chai = require('chai');
 const chaiHttp = require('chai-http');
@@ -94,7 +96,7 @@ describe('Auth endpoints', function() {
                 const payload = jwt.verify(token, JWT_SECRET, {
                     algorithm: ['HS256']
                 });
-                /*expect(payload.user).to.equal({
+                expect(payload.user).to.equal({
                     firstName,
                     lastName,
                     username
@@ -186,4 +188,3 @@ describe('Auth endpoints', function() {
     });
 
 })
-*/
