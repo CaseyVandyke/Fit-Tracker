@@ -334,4 +334,8 @@ i {
         width: 250px;
         padding: 10px;
     }
+
+    .directions-info {
+        font-size: 20px;
+    }
 }
