@@ -7,6 +7,7 @@ $("#signup-btn").on('click', function (e) {
             <input type="password" placeholder="Password" class="js-password-auth">
             <br/>
             <button class="profile-signup">Sign up</button>
+            <button class="go-home">Home</button>
     </section>`)
     $('#login-wrapper').show();
     $('#landing-content').hide();
@@ -21,6 +22,7 @@ $("#login-btn").on('click', function (e) {
             <input type="password" placeholder="Password" class="js-password-auth">
             <br/>
             <button class="profile-login">Login</button>
+            <button class="go-home">Home</button>
     </section>`)
     $('#login-wrapper').show();
     $('#landing-content').hide();
@@ -101,14 +103,26 @@ $('.login-results').on('click', '.profile-login', function(event){
         },
         error: (error) => {
             if (error) {
-                $('#login-error').html(`<p>You have entered a wrong username or password try again`);
+                $('#login-error').html(`<p>You have entered a wrong username or password try again.`);
         }
     }
 });
 });
 
+$('.login-form').on('click', '.go-home', () => {
+    $(location).attr("href", "./index.html");
+})
+
 $('.login-form').submit(function(e){
     e.preventDefault();
 })
+
+$('#login-btn').on('click', () => {
+    $('.fit-info').hide();
+  })
+
+  $('#signup-btn').on('click', () => {
+    $('.fit-info').hide();
+  })
 
 $(createUser);

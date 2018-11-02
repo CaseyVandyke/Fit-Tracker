@@ -16,8 +16,6 @@ $.ajax({
   }
 });
 
-
-
 $('.logout-btn').on('click', (e) => {
   sessionStorage.removeItem("Bearer")
   $(location).attr("href", "./index.html");

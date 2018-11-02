@@ -5,9 +5,12 @@
 }
 
 body {
-    background-image: url('./../img/barbell.jpeg');
-    font-family: Roboto, sans-serif;
+    background: url('./../img/barbell.jpeg') no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: Roboto, sans-serif;
 }
 
 .login-right {
@@ -24,7 +27,7 @@ body {
 
 #signup-btn,
 #login-btn {
-    margin: 20px;
+    margin: 30px;
     padding: 5px;
     border-radius: 3px;
     font-size: 17px;
@@ -96,6 +99,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: 30px;
+    color: #fff;
 }
 
 .fit-info ul {
@@ -144,6 +148,25 @@ i {
     display: none;
 }
 
+.go-home {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #2A2929;
+    opacity: .8;
+    color: #08FF83;
+    border: 3px solid #08FF83;
+    font-size: 18px;
+    width: 250px;
+    text-transform: uppercase;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.go-home:hover {
+    border: 3px solid #FFDB07;
+    color: #FFDB07;
+}
+
 .js-username-auth,
 .js-password-auth {
     display: block;
@@ -161,7 +184,7 @@ i {
 }
 
 .js-username-auth {
-    margin-top: 40px;
+    margin-top: 45%;
     margin-bottom: 20px;
 }
 
@@ -243,12 +266,6 @@ i {
     .login-right {
         margin: 0 auto;
         text-align: right;
-        border-bottom: 2px solid #fff;
-        border-top: 2px solid #fff;
-    }
-
-    body {
-        background: #2A2929
     }
 
 
@@ -261,11 +278,6 @@ i {
 
     }
 
-    #login-btn {
-        border: 3px solid #FF0000;
-        color: #fff;
-    }
-
     #signup-btn {
         width: 250px;
         font-size: 20px;
@@ -274,7 +286,7 @@ i {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 470px) {
 
     #wrapper {
         margin: 0;
@@ -290,21 +302,31 @@ i {
     }
 
     #login-btn {
-        background: none;
+        background: #2A2929;
+        opacity: .8;
         color: #fff;
         border: 3px solid #FF0000;
         top: 10px;
         font-size: 15px;
-        width: 55px;
+        width: 65px;
         right: 20px;
         margin: 20px;
-        text-transform: none;
+        text-transform: uppercase;
     }
 
     .fit-info li {
        font-size: 15px;
        margin: 10px;
        padding: 10px;
+       width: 250px;
+    }
+
+    .fit-info ul {
+        display: block;
+    }
+
+    .fit-info h2 {
+        font-size: 20px;
     }
 
     #login-error {
