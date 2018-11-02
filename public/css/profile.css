@@ -37,6 +37,7 @@ body {
 }
 
 .nav {
+    border-top: 2px solid #08FF83;
     border-bottom: 2px solid #08FF83;
     text-align: right;
     min-height: 70px;
@@ -236,7 +237,7 @@ legend {
     }
 
     .icon-text {
-        font-size: 17px;
+        font-size: 18px;
         line-height: 1.2em;
     }
 
@@ -299,5 +300,13 @@ legend {
 
     .icon-style {
         padding: 0;
+    }
+
+    .diet-creation {
+        font-size: 17px;
+    }
+
+    .routine-creation {
+        font-size: 17px;
     }
 }
