@@ -111,7 +111,7 @@ body {
     display: inline-block;
     margin: 30px;
     border-radius: 3px; 
-    font-size: 18px;
+    font-size: 20px;
     list-style: none;
     width: 200px;
     border: 3px solid #FFDB07;
@@ -333,9 +333,5 @@ i {
     #login-error {
         width: 250px;
         padding: 10px;
-    }
-
-    .directions-info {
-        font-size: 20px;
     }
 }
