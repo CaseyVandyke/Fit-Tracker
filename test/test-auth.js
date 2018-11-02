@@ -7,7 +7,7 @@ describe ('demo test', function() {
     })
 })
 
-*/
+
 
 "use strict";
 
@@ -188,3 +188,5 @@ describe('Auth endpoints', function() {
     });
 
 })
+
+*/
