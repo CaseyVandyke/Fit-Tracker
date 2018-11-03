@@ -64,7 +64,7 @@ legend {
     margin: 10px 10px;
     padding: 10px;
     background-color: #2A2929;
-    border: 2px solid #FFDB07;
+    border: 2px solid #FEE233;
     width: 300px;
     border-radius: 3px;
 }
@@ -82,7 +82,7 @@ legend {
 }
 
 .greeting {
-    color: #FFDB07;
+    color: #FEE233;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -114,7 +114,7 @@ legend {
 
 .routine-creation {
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -131,7 +131,7 @@ legend {
     margin: 10px 10px;
     padding: 10px;
     background-color: #2A2929;
-    border: 2px solid #FFDB07;
+    border: 2px solid #FEE233;
     width: 200px;
     border-radius: 3px;
     }

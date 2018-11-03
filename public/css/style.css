@@ -49,8 +49,8 @@ body {
 }
 
 #signup-btn:hover {
-    border: 3px solid #FFDB07;
-    color: #FFDB07;
+    border: 3px solid #FEE233;
+    color: #FEE233;
 }
 
 #login-btn {
@@ -60,8 +60,8 @@ body {
 }
 
 #login-btn:hover {
-    border: 3px solid #FFDB07;
-    color: #FFDB07;
+    border: 3px solid #FEE233;
+    color: #FEE233;
 }
 
 #landing-header {
@@ -85,10 +85,10 @@ body {
     opacity: .9;
     border-radius: 3px;
     text-shadow:
-        -1px -1px 0 #FFDB07,
-        1px -1px 0 #FFDB07,
-        -1px 1px 0 #FFDB07,
-        1px 1px 0 #FFDB07;
+        -1px -1px 0 #FEE233,
+        1px -1px 0 #FEE233,
+        -1px 1px 0 #FEE233,
+        1px 1px 0 #FEE233;
 }
 
 .fit-info {
@@ -114,7 +114,7 @@ body {
     font-size: 20px;
     list-style: none;
     width: 200px;
-    border: 3px solid #FFDB07;
+    border: 3px solid #FEE233;
     background: #2A2929;
     opacity: .8;
     color: #fff;
@@ -164,8 +164,8 @@ i {
 }
 
 .go-home:hover {
-    border: 3px solid #FFDB07;
-    color: #FFDB07;
+    border: 3px solid ;
+    color: #FEE233;
 }
 
 .js-username-auth,
@@ -228,16 +228,16 @@ i {
 }
 
 .profile-login:hover {
-    border: 3px solid #FFDB07;
-    color: #FFDB07;
+    border: 3px solid #FEE233;
+    color: #FEE233;
     text-transform: uppercase;
     font-weight: 500;
 
 }
 
 .profile-signup:hover {
-    border: 3px solid #FFDB07;
-    color: #FFDB07;
+    border: 3px solid #FEE233;
+    color: #FEE233;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -254,7 +254,7 @@ i {
 
 #login-error {
     margin-top: 20px;
-    color: #FFDB07;
+    color: #FEE233;
     width: 400px;
     opacity: .8;
     font-size: 18px;

@@ -37,8 +37,8 @@ body {
 }
 
 .nav {
-    border-top: 2px solid #08FF83;
-    border-bottom: 2px solid #08FF83;
+    border-top: 2px solid #FEE233;
+    border-bottom: 2px solid #FEE233;
     text-align: right;
     min-height: 70px;
     line-height: 70px;
@@ -54,7 +54,7 @@ body {
     color: #fff;
     margin: 0 10px;
     line-height: 70px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 span {
@@ -78,7 +78,7 @@ label {
     float: left;
     color: #fff;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -200,7 +200,7 @@ legend {
 }
 
 .greeting {
-    color: #FFDB07;
+    color: #FEE233;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
