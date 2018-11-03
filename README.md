@@ -18,9 +18,21 @@ Welcome to my fitness tracking app where you can keep track of and personalize w
 
 ![](images/ScreenshotProfile.png)
 
-<p>Create a Routine</p>
+<p>Created Routines</p>
 
 ![](images/ScreenshotRoutines.png)
+
+<p>Created Diets</p>
+
+![](images/ScreenshotDiets.png)
+
+<p>Create a Routine</p>
+
+![](images/ScreenshotCreateRoutines.png)
+
+<p>Create a Diet</p>
+
+![](images/ScreenshotCreateDiet.png)
 
 
 
