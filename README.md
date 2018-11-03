@@ -8,4 +8,4 @@ Welcome to my fitness tracking app where you can keep track of and personalize w
 
 <p>Landing Page</p>
 
-![](screenshots/LandingPage.png)
+![](images/)
