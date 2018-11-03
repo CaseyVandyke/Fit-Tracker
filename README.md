@@ -1,4 +1,4 @@
-# Fit-Track
+## Fit-Track
 
 [link to live app](https://polar-beyond-41706.herokuapp.com/index.html)
 
