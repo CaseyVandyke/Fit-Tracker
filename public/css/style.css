@@ -83,7 +83,6 @@ body {
     text-transform: uppercase;
     background: #2A2929;
     opacity: .9;
-    border-radius: 3px;
     text-shadow:
         -1px -1px 0 #FEE233,
         1px -1px 0 #FEE233,
@@ -274,7 +273,6 @@ i {
         margin: 25px auto 50px;
         font-size: 75px;
         text-align: center;
-        border-radius: 3px;
         justify-content: center;
 
     }
