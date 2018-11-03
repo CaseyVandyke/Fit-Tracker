@@ -34,5 +34,6 @@ Welcome to my fitness tracking app where you can keep track of and personalize w
 
 ![](images/ScreenshotCreateDiet.png)
 
-
+#Technologies Used
+HTML5, CSS, Node, Express, jQuery, JavaScript, MongoDB, Mongoose, JWT, Passport, Mocha, Chai, REST APIs
 
