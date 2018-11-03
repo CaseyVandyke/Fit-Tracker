@@ -9,3 +9,18 @@ Welcome to my fitness tracking app where you can keep track of and personalize w
 <p>Landing Page</p>
 
 ![](images/Screenshot1.png)
+
+<p>Login page</p>
+
+![](images/ScreenshotLogin.png)
+
+<p>Profile page</p>
+
+![](images/ScreenshotProfile.png)
+
+<p>Create a Routine</p>
+
+![](images/ScreenshotRoutines.png)
+
+
+
