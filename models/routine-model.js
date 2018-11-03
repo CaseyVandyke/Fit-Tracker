@@ -19,11 +19,11 @@ const routineSchema = mongoose.Schema({
         required: [true, 'Workout field is required']
     },
     sets: {
-        type: Number,
+        type: String,
         required: [true, 'Sets field is required']
     },
     reps: {
-        type: Number,
+        type: String,
         required: [true, 'Repetitions field is required']
     },
     img: String,
