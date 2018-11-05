@@ -23,6 +23,7 @@ body {
 .profile-login,
 .profile-signup {
     cursor: pointer;
+    transition: all .1s ease-in-out;
 }
 
 #signup-btn,
@@ -282,6 +283,7 @@ i {
         font-size: 20px;
         margin-top: 20px;
         padding: 10px;
+        transition: all .1s ease-in-out;
     }
 }
 
@@ -311,6 +313,7 @@ i {
         right: 20px;
         margin: 20px;
         text-transform: uppercase;
+        transition: all .1s ease-in-out;
     }
 
     .fit-info li {
