@@ -40,5 +40,6 @@
   "bugs": {
     "url": "https://github.com/CaseyVandyke/Fit-Track/issues"
   },
-  "homepage": "https://github.com/CaseyVandyke/Fit-Track#readme"
+  "homepage": "https://github.com/CaseyVandyke/Fit-Track#readme",
+  "heroku-run-build-script": true
 }
