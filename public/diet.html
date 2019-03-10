@@ -1,67 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/profile.css">
-    <link rel="stylesheet" href="./css/diet.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/profile.css" />
+    <link rel="stylesheet" href="./css/diet.css" />
     <title>Routine-Profile</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main role="main">
-        <nav class="nav" role="navigation">
-            <li class="float-name"></li>
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle" />
-            <div class="menu">
-                <a href="profile.html">Home</a>
-                <a href="saved-routine.html">Routines</a>
-                <a href="saved-diet.html">Diets</a>
-                <a href="#" class="logout-btn">Logout</a>
-            </div>
-        </nav>
-        <div class="profile-tab">
-            <ul class="profile-wrap">
-                <li><a href='#' class="diet-tab">Create a diet</a></li>
-            </ul>
+      <nav class="nav" role="navigation">
+        <li class="float-name"></li>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+          <a href="profile.html">Home</a>
+          <a href="saved-routine.html">Routines</a>
+          <a href="saved-diet.html">Diets</a>
+          <a href="#" class="logout-btn">Logout</a>
         </div>
-        <form class="diet-catch" autocomplete="off">
-            <fieldset>
-                <legend>diet record</legend>
-                <p>
-                    <input type="text" name="title" class="routine-data diet-title" placeholder="Enter name of diet">
-                    <label for="title"></label>
-                </p>
-                <p>
-                    <input type="text" name="calories" class="routine-data calories" placeholder="Enter total calories">
-                    <label for="calories"></label>
-                </p>
-                <p>
-                    <input type="text" name="recipe" class="routine-data recipe" placeholder="Enter recipe">
-                    <label for="recipe"></label>
-                </p>
-                <p>
-                    <input type="text" name="notes" class="routine-data notes" placeholder="Enter notes">
-                    <label for="notes"></label>
-                </p>
-                <p>
-                    <input type="text" name="author" class="routine-data author" placeholder="Enter your username">
-                    <label for="author"></label>
-                </p>
-                <button class="diet-submit">Submit</button>
-                <div class="diet-message"></div>
-            </fieldset>
-        </form>
+      </nav>
+      <div class="profile-tab">
+        <ul class="profile-wrap">
+          <li><a href="#" class="diet-tab">Create a diet</a></li>
+        </ul>
+      </div>
+      <form class="diet-catch" autocomplete="off">
+        <fieldset>
+          <legend>diet record</legend>
+          <p>
+            <input
+              type="text"
+              name="title"
+              class="routine-data diet-title"
+              placeholder="Enter name of diet"
+            />
+            <label for="title"></label>
+          </p>
+          <p>
+            <input
+              type="text"
+              name="calories"
+              class="routine-data calories"
+              placeholder="Enter total calories"
+            />
+            <label for="calories"></label>
+          </p>
+          <p>
+            <input
+              type="text"
+              name="recipe"
+              class="routine-data recipe"
+              placeholder="Enter recipe"
+            />
+            <label for="recipe"></label>
+          </p>
+          <p>
+            <input
+              type="text"
+              name="notes"
+              class="routine-data notes"
+              placeholder="Enter notes"
+            />
+            <label for="notes"></label>
+          </p>
+          <p>
+            <input
+              type="text"
+              name="author"
+              class="routine-data author"
+              placeholder="Enter your username"
+            />
+            <label for="author"></label>
+          </p>
+          <button class="diet-submit">Submit</button>
+          <div class="diet-message"></div>
+        </fieldset>
+      </form>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <script src="./javascript/profile.js"></script>
-</body>
-
+  </body>
 </html>

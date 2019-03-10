@@ -1,306 +1,307 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 * {
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    background: #292929;
-    font-family: Roboto, sans-serif;
+  background: #292929;
+  font-family: Roboto, sans-serif;
 }
 
 .menu .active {
-    color: #08FF83
+  color: #08ff83;
 }
 
 .nav li {
-    list-style: none;
-    margin-left: 20px;
+  list-style: none;
+  margin-left: 20px;
 }
 
 .nav {
-    border-top: 2px solid #FEE233;
-    border-bottom: 2px solid #FEE233;
-    text-align: right;
-    min-height: 70px;
-    line-height: 70px;
+  border-top: 2px solid #fee233;
+  border-bottom: 2px solid #fee233;
+  text-align: right;
+  min-height: 70px;
+  line-height: 70px;
 }
 
 .menu {
-    margin: 0 30px 0 0;
+  margin: 0 30px 0 0;
 }
 
 .menu a {
-    clear: right;
-    text-decoration: none;
-    color: #fff;
-    margin: 0 10px;
-    line-height: 70px;
-    font-size: 22px;
+  clear: right;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  line-height: 70px;
+  font-size: 22px;
 }
 
 span {
-    color: #08FF83;
+  color: #08ff83;
 }
 
 label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
 }
 
 #toggle {
-    display: none;
+  display: none;
 }
 
 .float-name {
-    float: left;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 400;
+  float: left;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-
 #landing-content {
-    text-align: center;
+  text-align: center;
 }
 
 .delete-item {
-    color: #fff;
-    border: 2px solid #FF0000;
-    width: 80%;
-    height: 30px;
-    font-size: 20px;
-    border-radius: 3px;
-    padding: 5px;
-    text-decoration: none;
-    background: #2A2929;
-    margin: 10px;
-    cursor: pointer;
+  color: #fff;
+  border: 2px solid #ff0000;
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 5px;
+  text-decoration: none;
+  background: #2a2929;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.delete-item:hover {
+  color: #fff;
+  background-color: #ff0000;
+  transition: all 0.2s ease-in-out;
 }
 
 .diet-creation {
-    color: #fff;
-    font-size: 30px;
-    margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .icon-style {
-    width: 350px;
-    height: 330px;
-    border: 2px solid #FEE233;
-    margin: 40px 30px 100px;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 3px;
-    vertical-align: top;
+  width: 350px;
+  height: 330px;
+  border: 2px solid #fee233;
+  margin: 40px 30px 100px;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 3px;
+  vertical-align: top;
 }
 
-.icon-style>li {
-    list-style: none;
-    margin-top: 30px;
+.icon-style > li {
+  list-style: none;
+  margin-top: 30px;
 }
 
-.icon-style>li>a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 35px;
-    text-transform: uppercase;
+.icon-style > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  text-transform: uppercase;
 }
 
-.icon-style>li>a:hover {
-    color: #FF0000;
+.icon-style > li > a:hover {
+  color: #ff0000;
+  transition: all 0.2s ease-in-out;
 }
 
 .icon-x {
-    list-style: none;
-    color: #08FF83;
-    margin-top: 30px;
+  list-style: none;
+  color: #08ff83;
+  margin-top: 30px;
 }
 
 .icon-text {
-    margin-top: 30px;
-    color: #08FF83;
-    line-height: 1.8em;
-    font-size: 25px;
+  margin-top: 30px;
+  color: #08ff83;
+  line-height: 1.8em;
+  font-size: 25px;
 }
 
 .profile-tab {
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .profile-wrap {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .profile-tab li {
-    list-style: none;
-    text-align: center;
-    display: inline-block;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
 }
 
-
 .results {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ::-webkit-input-placeholder {
-    /* Chrome */
-    color: #08FF83;
+  /* Chrome */
+  color: #08ff83;
 }
 
 :-ms-input-placeholder {
-    /* IE 10+ */
-    color: #08FF83;
+  /* IE 10+ */
+  color: #08ff83;
 }
 
 ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #08FF83;
-    opacity: 1;
+  /* Firefox 19+ */
+  color: #08ff83;
+  opacity: 1;
 }
 
 :-moz-placeholder {
-    /* Firefox 4 - 18 */
-    color: #08FF83;
-    opacity: 1;
+  /* Firefox 4 - 18 */
+  color: #08ff83;
+  opacity: 1;
 }
 
 fieldset {
-    border: none;
+  border: none;
 }
 
 legend {
-    display: none;
+  display: none;
 }
 
 .greeting {
-    color: #FEE233;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-weight: 300;
+  color: #fee233;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 930px) {
-    .icon-style {
-        width: 270px;
-        height: 250px;
-    }
+  .icon-style {
+    width: 270px;
+    height: 250px;
+  }
 
-    .icon-style>li>a {
-        font-size: 30px;
-    }
+  .icon-style > li > a {
+    font-size: 30px;
+  }
 
-    .icon-text {
-        font-size: 20px;
-    }
-
+  .icon-text {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .icon-style {
+    width: 220px;
+    height: 200px;
+  }
 
-    .icon-style {
-        width: 220px;
-        height: 200px;
-    }
+  .icon-style > li > a {
+    font-size: 20px;
+  }
 
-    .icon-style>li>a {
-        font-size: 20px;
-    }
+  .icon-text {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
 
-    .icon-text {
-        font-size: 18px;
-        line-height: 1.2em;
-    }
-
-    .touch {
-        -webkit-overflow-scrolling: touch;
-    }
+  .touch {
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 @media only screen and (max-width: 670px) {
+  .icon-style {
+    margin: 30px;
+    width: 300px;
+  }
 
-    .icon-style {
-        margin: 30px;
-        width: 300px;
-    }
+  .routine-data,
+  .routine-submit {
+    margin: 5px auto;
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid #08ff83;
+    color: #08ff83;
+    background-color: #212121;
+    font-size: 15px;
+    -webkit-appearance: none;
+  }
 
-    .routine-data,
-    .routine-submit {
-        margin: 5px auto;
-        width: 200px;
-        padding: 5px;
-        border-radius: 3px;
-        border: 2px solid #08FF83;
-        color: #08FF83;
-        background-color: #212121;
-        font-size: 15px;
-        -webkit-appearance: none;
-    }
+  .target-muscle {
+    margin-top: 30px;
+  }
 
-    .target-muscle {
-        margin-top: 30px;
-    }
-
-    .routine-submit {
-        cursor: pointer;
-        border: 2px solid #08FF83;
-        color: #08FF83;
-    }
-
+  .routine-submit {
+    cursor: pointer;
+    border: 2px solid #08ff83;
+    color: #08ff83;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    label {
-        display: block;
-        cursor: pointer;
-        color: #FF0000;
-    }
+  label {
+    display: block;
+    cursor: pointer;
+    color: #ff0000;
+  }
 
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
 
-    .menu a {
-        display: block;
-        border-top: 2px solid #08FF83;
-        margin: 0;
-    }
+  .menu a {
+    display: block;
+    border-top: 2px solid #08ff83;
+    margin: 0;
+  }
 
-    #toggle:checked+.menu {
-        display: block;
-    }
+  #toggle:checked + .menu {
+    display: block;
+  }
 
-    .icon-style {
-        padding: 0;
-    }
+  .icon-style {
+    padding: 0;
+  }
 
-    .diet-creation {
-        font-size: 17px;
-    }
+  .diet-creation {
+    font-size: 17px;
+  }
 
-    .routine-creation {
-        font-size: 17px;
-    }
+  .routine-creation {
+    font-size: 17px;
+  }
 }
