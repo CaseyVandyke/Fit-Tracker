@@ -143,6 +143,20 @@ i {
   display: none;
 }
 
+.demo-user {
+  color: #fff;
+  background-color: #2a2929;
+  margin: 0 auto 15px;
+  width: 300px;
+  font-size: 22px;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+
+.demo-user p {
+  line-height: 1.6em;
+}
+
 .go-home {
   padding: 10px;
   border-radius: 3px;
